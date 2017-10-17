@@ -1,0 +1,21 @@
+Assignment to use pthreads that adds to, deletes from and balances a Binary Search Tree continuously
+
+Note: This was developed early in the course and may be a bit rough around the edges
+	e.g. It has not been properly seperated into header files etc
+
+To compile:
+	make
+
+To test serial:
+	make stest
+
+To test pthreads:
+	make ptest
+
+To configure:
+	./serial.out [-nqs]
+	./pthread.out [-nqs]
+
+	-n [int]	to set number of loops
+	-q		to suppress output
+	-s [int]	to set a certain seed
